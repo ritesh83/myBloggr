@@ -1,0 +1,1 @@
+export default Ember.Handlebars.compile("<div class=\"navbar\">\n    <div class=\"navbar-inner\">\n        <a class=\"brand\" href=\"#\">Bloggr</a>\n        <ul class=\"nav\">\n            <li>{{#link-to \'posts\'}}Posts{{/link-to}}</li>\n            <li>{{#link-to \'about\'}}About{{/link-to}}</li>\n        </ul>\n    </div>\n</div>\n\n{{outlet}}\n");
